@@ -3,6 +3,10 @@ ruby '3.2.0'
 
 gem 'sinatra', '>= 2.0.2'
 gem 'sinatra-flash', '0.3.0'
+gem 'puma'
+gem 'thin'
+gem 'falcon'
+gem 'webrick'
 
 group :development, :test do
   gem 'cucumber', '2.0.0'
